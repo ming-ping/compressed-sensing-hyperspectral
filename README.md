@@ -43,31 +43,3 @@ pip install -r requirements.txt
 
 # Run a basic forward + reconstruction test
 python experiments/run_baseline.py
-
-📈 Sample Results (To Be Added)
-	•	Ground truth vs. reconstructed spectral cubes
-	•	PSNR / SSIM comparisons
-	•	Effects of noise, mask patterns
-
-🤝 Acknowledgments
-	•	Columbia CAVE dataset
-	•	Papers on CASSI and compressive imaging
-
-📌 TODOs
-	•	Add TV-regularized solver
-	•	Simulate realistic optics noise
-	•	Benchmark against non-CS recovery
-
----
-
-## 📦 `requirements.txt`
-
-```txt¯
-numpy
-scipy
-matplotlib
-opencv-python
-cvxpy
-scikit-learn
-jupyterlab
-h5py
